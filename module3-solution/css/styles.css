@@ -1,0 +1,119 @@
+body {
+  font-size: 16px;
+  color: black;
+}
+
+#header-nav {
+  background-color: lightblue;
+  border-radius: 0;
+  border: 0;
+  left: 0;
+}
+
+.navbar-brand {
+    padding: 10px 40px;
+}
+
+.navbar-brand h1 { 
+  font-family: Helvetica;
+  color: black;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+    background: #0df333;
+    margin-top: 1px;
+}
+
+#nav-list p {
+   color: black;
+   text-align: center;
+   font-size: 2.5em;
+}
+
+#nav-list p:hover {
+   background: red;
+   color: black;
+}
+
+#nav-list span {
+   font-size: 2em;
+} 
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -65px;
+}
+
+.jumbotron {
+  padding-top: 10px;
+  background-color: salmon;
+}
+
+.jumbotron h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+  
+/********** Large devices only *********/
+@media (min-width: 1200px) {
+  /* Header */
+  .container {
+    width: 95%;
+    background-color: salmon;
+  }
+}
+  
+/********* Medium devices only *********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  .container {
+    width: 95%;
+    background-color: salmon;
+  }
+}
+
+/********** Small devices only *********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
+  .container {
+    width: 95%;
+    background-color: salmon;
+  }
+}
+
+/********** Extra small devices only *********/
+@media (max-width: 767px)  {
+    /* Header */
+
+    .navbar-brand {
+      padding: 15px 40px;
+      height: 80px;
+    }
+
+    .navbar-brand h1 {
+      padding-top: 10px;
+      font-size: 4.5vw;
+    }
+ 
+    #collapsable-nav p { 
+      font-size: 2em;
+    }
+
+    #xs-deliver {
+      margin-top: 5px;
+      font-size: .7em;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+  
